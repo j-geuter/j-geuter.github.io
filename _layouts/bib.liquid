@@ -154,7 +154,14 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
+      {% comment %}  
+        highlight “Spotlight” in bold when rendering  
+      {% endcomment %}
+      {% assign highlighted_title = entry.booktitle 
+          | replace: "Spotlight", "<strong>Spotlight</strong>" %}
+      {% capture entrytype %}
+        <em>Accepted to {{ highlighted_title }}</em>
+      {% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
@@ -200,6 +207,11 @@
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% endif %}
+      {% if entry.url %}
+        <a href="{{ entry.url }}"
+          class="btn btn-sm z-depth-0"
+          role="button">URL</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -349,7 +361,7 @@
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+        {{ entry.abstract | markdownify }}
       </div>
     {% endif %}
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-05-08
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I was selected to receive a [Kempner Institute Graduate Fellowship](https://kempnerinstitute.harvard.edu/news/kempner-institute-announces-recipients-of-2025-graduate-fellowships/)!
