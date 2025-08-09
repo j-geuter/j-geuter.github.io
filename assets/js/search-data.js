@@ -23,12 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-our-paper-ddeqs-distributional-deep-equilibrium-models-through-wasserstein-gradient-flows-was-accepted-to-aistats-2025",
+        },{id: "news-our-paper-ddeqs-distributional-deep-equilibrium-models-through-wasserstein-gradient-flows-was-accepted-to-aistats-2025",
           title: 'Our paper DDEQs: Distributional Deep Equilibrium Models through Wasserstein Gradient Flows was accepted...',
           description: "",
           section: "News",},{id: "news-three-papers-accepted-to-icml-2025-universal-neural-optimal-transport-main-conference-entropy-driven-pre-tokenization-for-byte-pair-encoding-tokenization-workshop-and-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-spotlight-at-es-fomo-workshop",
