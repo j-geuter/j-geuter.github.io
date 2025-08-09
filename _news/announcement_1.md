@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href="https://arxiv.org/abs/2503.01140">DDEQs: Distributional Deep Equilibrium Models through Wasserstein Gradient Flows</a> was accepted to <a href="https://aistats.org/aistats2025/index.html">AISTATS 2025</a>!
+Our paper <a href="https://openreview.net/forum?id=rFfNuzzXXW">DDEQs: Distributional Deep Equilibrium Models through Wasserstein Gradient Flows</a> was accepted to <a href="https://aistats.org/aistats2025/index.html">AISTATS 2025</a>!

@@ -3,14 +3,15 @@
   {% for content in education %}
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
-          {% if content.startDate and content.startDate != '' %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
-          {% else %}
-            {% assign date = null %}
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+          {% if content.startDate %}
+            {% assign start = content.startDate | date: "%b %Y" %}
+            {% if content.endDate %}
+              {% assign ending = content.endDate | date: "%b %Y" %}
+            {% else %}
+              {% assign ending = "Present" %}
+            {% endif %}
+            {{ start }} – {{ ending }}
           {% endif %}
           <table class="table-cv">
             <tbody>
@@ -25,7 +26,6 @@
                 <tr>
                   <td>
                     <p class="location">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
                       {{ content.location }}
                     </p>
                   </td>

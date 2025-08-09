@@ -23,3 +23,51 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.date-column {
+  font-size: 0.8rem;  /* shrink date text */
+  white-space: nowrap;
+  margin-top: 0.3rem;
+}
+.date-column .location {
+  font-size: 0.8rem;  /* fontsize for location */
+}
+ul.items li {
+  font-size: 0.8rem;           /* whatever you chose for the smaller text */
+  line-height: 1.2;            /* tighten up the line‐height if needed */
+}
+
+ul.items li .item {
+  display: inline-block;       /* allow vertical‐align/top offsets */
+  position: relative;
+  top: -0rem;               /* nudge the text up – adjust to taste */
+  vertical-align: middle;      /* keep it centered on the bullet */
+}
+
+/* Keep publication links in the same color as surrounding text */
+.publication-single a {
+  color: inherit !important;
+  text-decoration: none;  /* optional: remove underline, or change as you like */
+}
+
+/* If you still want hover feedback, you can add: */
+.publication-single a:hover {
+  text-decoration: underline;
+}
+
+/* make first name appear not bold */
+.display-4 > :first-child {
+  font-weight: normal !important;
+}
+
+/* On the about/home page, show more-info above the image */
+.profile {
+  display: flex;            /* turn on flexbox */
+  flex-direction: column-reverse; /* reverse the DOM order visually */
+  align-items: flex-start;  /* keep text left-aligned */
+  margin-bottom: 3rem;
+}
+
+.news {
+  margin-bottom: 2rem; /* adjust to taste */
+}

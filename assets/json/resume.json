@@ -75,7 +75,8 @@
   "work": [
     {
       "name": "Harvard University",
-      "position": "Teaching Assistant for Computational Science and Engineering Capstone Project Class",
+      "location": "Cambridge, US",
+      "position": "TA for Computational Science and Engineering Capstone Class",
       "startDate": "2025-01-01",
       "endDate": "2025-05-01",
       "summary": "",
@@ -83,6 +84,7 @@
     },
     {
       "name": "Jina AI",
+      "location": "Berlin, Germany",
       "position": "Machine Learning Intern",
       "startDate": "2023-05-01",
       "endDate": "2023-08-31",
@@ -90,6 +92,7 @@
     },
     {
       "name": "Zuse Institute Berlin",
+      "location": "Berlin, Germany",
       "position": "Research Assistant, IOL Lab",
       "startDate": "2021-05-01",
       "endDate": "2022-11-30",
@@ -97,7 +100,8 @@
     },
     {
       "name": "Technische Universität Berlin",
-      "position": "Teaching Assistant for Computer-Oriented Mathematics I and II",
+      "location": "Berlin, Germany",
+      "position": "TA for Computer-Oriented Mathematics I and II",
       "startDate": "2017-10-01",
       "endDate": "2018-08-31",
       "summary": "",
@@ -105,7 +109,8 @@
     },
     {
       "name": "Technische Universität Berlin",
-      "position": "Teaching Assistant for Computer-Oriented Mathematics I and II",
+      "location": "Berlin, Germany",
+      "position": "TA for Computer-Oriented Mathematics I and II",
       "startDate": "2019-10-01",
       "endDate": "2021-03-31",
       "summary": "",
@@ -113,7 +118,8 @@
     },
     {
       "name": "Technische Universität Berlin",
-      "position": "Teaching Assistant for Calculus I and Linear Algebra I",
+      "location": "Berlin, Germany",
+      "position": "TA for Calculus I and Linear Algebra I",
       "startDate": "2020-08-01",
       "endDate": "2020-10-31",
       "summary": "",
@@ -121,6 +127,7 @@
     },
     {
       "name": "University of California, Berkeley",
+      "location": "Berkeley, US",
       "position": "Research Intern",
       "startDate": "2018-10-01",
       "endDate": "2018-12-31",
@@ -128,17 +135,56 @@
       "highlights": []
     }
   ],
-  
+  "publications": [
+    {
+      "name": "Guided Speculative Inference for Efficient Test-Time Alignment of LLMs",
+      "publisher": "Spotlight, 3rd Workshop for Efficient Systems for Foundation Models at ICML 2025, Vancouver, Canada",
+      "authors": ["Jonathan Geuter", "Youssef Mroueh", "David Alvarez-Melis"],
+      "date": "2025-07",
+      "url": "https://arxiv.org/abs/2506.04118",
+      "summary": ""
+    },
+    {
+      "name": "Entropy-Driven Pre-Tokenization for Byte-Pair Encoding",
+      "publisher": "Tokenization Workshop (TokShop) at ICML 2025, Vancouver, Canada",
+      "authors": ["Yifan Hu","Frank Liang","Dachuan Zhao","Jonathan Geuter","Varshini Reddy","Craig W. Schmidt","Chris Tanner"],
+      "date": "2025-06",
+      "url": "https://openreview.net/forum?id=1hcu9Vq4Or",
+      "summary": ""
+    },
+    {
+      "name": "DDEQs: Distributional Deep Equilibrium Models through Wasserstein Gradient Flows",
+      "publisher": "AISTATS 2025, Phuket, Thailand",
+      "authors": ["Jonathan Geuter","Clément Bonet","Anna Korba","David Alvarez-Melis"],
+      "date": "2025-04",
+      "url": "https://openreview.net/forum?id=rFfNuzzXXW",
+      "summary": ""
+    },
+    {
+      "name": "Universal Neural Optimal Transport",
+      "publisher": "ICML 2025, Vancouver, Canada",
+      "authors": ["Jonathan Geuter","Gregor Kornhardt","Ingimar Tomasson","Vaios Laschos"],
+      "date": "2025-05",
+      "url": "https://openreview.net/forum?id=t10fde8tQ7",
+      "summary": ""
+    },
+    {
+      "name": "Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models",
+      "publisher": "NLP-OSS 2023, EMNLP, Singapore",
+      "authors": ["Michael Günther","Louis Milliken","Jonathan Geuter","Georgios Mastrapas","Bo Wang","Han Xiao"],
+      "date": "2023-11",
+      "url": "https://openreview.net/forum?id=3HTUlrn6o7",
+      "summary": ""
+    }
+  ],
   "awards": [
     {
       "title": "QuantCo ICML Travel Scholarship",
-      "date": "2025-07-01",
-      "awarder": "QuantCo"
+      "date": "2025-07-01"
     },
     {
       "title": "Hudson River Trading ICML Scholar Award",
-      "date": "2025-07-01",
-      "awarder": "Hudson River Trading"
+      "date": "2025-07-01"
     },
     {
       "title": "Kempner Institute Graduate Fellowship",
@@ -148,57 +194,18 @@
     {
       "title": "Deutschlandstipendium Scholarship",
       "date": "2021-01-01",
-      "awarder": "Deutschlandstipendium",
-      "summary": "Awarded for two semesters."
+      "summary": "Awarded for two semesters"
     },
     {
       "title": "Deutschlandstipendium Scholarship",
       "date": "2020-01-01",
-      "awarder": "Deutschlandstipendium",
-      "summary": "Awarded for two semesters."
+      "summary": "Awarded for two semesters"
     },
     {
       "title": "Study Abroad Grant",
       "date": "2018-01-01",
       "awarder": "University of California, Berkeley",
-      "summary": "Grant for two semesters of full-time study."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Guided Speculative Inference for Efficient Test-Time Alignment of LLMs",
-      "publisher": "Spotlight, 3rd Workshop for Efficient Systems for Foundation Models at ICML 2025, Vancouver, Canada",
-      "releaseDate": "2025-07-01",
-      "url": "https://arxiv.org/abs/2506.04118",
-      "summary": ""
-    },
-    {
-      "name": "Entropy-Driven Pre-Tokenization for Byte-Pair Encoding",
-      "publisher": "Tokenization Workshop (TokShop) at ICML 2025, Vancouver, Canada",
-      "releaseDate": "2025-07-01",
-      "url": "https://openreview.net/forum?id=1hcu9Vq4Or",
-      "summary": ""
-    },
-    {
-      "name": "DDEQs: Distributional Deep Equilibrium Models through Wasserstein Gradient Flows",
-      "publisher": "AISTATS 2025, Phuket, Thailand",
-      "releaseDate": "2025-04-01",
-      "url": "https://openreview.net/forum?id=rFfNuzzXXW",
-      "summary": ""
-    },
-    {
-      "name": "Universal Neural Optimal Transport",
-      "publisher": "ICML 2025, Vancouver, Canada",
-      "releaseDate": "2025-07-01",
-      "url": "https://openreview.net/forum?id=t10fde8tQ7",
-      "summary": ""
-    },
-    {
-      "name": "Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models",
-      "publisher": "NLP-OSS 2023, EMNLP, Singapore",
-      "releaseDate": "2023-11-01",
-      "url": "https://openreview.net/forum?id=3HTUlrn6o7",
-      "summary": ""
+      "summary": "Grant for two semesters of full-time study"
     }
   ],
   "skills": [
