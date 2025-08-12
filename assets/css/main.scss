@@ -55,9 +55,9 @@ ul.items li .item {
   text-decoration: underline;
 }
 
-/* make first name appear not bold */
-.display-4 > :first-child {
-  font-weight: normal !important;
+/* force the first-name span in the main title to be bold */
+.post-title span.font-weight-bold {
+  font-weight: 700 !important;  /* bootstrap’s bold weight */
 }
 
 /* On the about/home page, show more-info above the image */
