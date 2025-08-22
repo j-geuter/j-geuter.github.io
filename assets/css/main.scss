@@ -82,6 +82,13 @@ ul.items li .item {
 /* Phones: align left */
 @media (max-width: 575.98px) {
   .abbr {
-    justify-content: flex-start;  /* left on mobile */
+    justify-content: flex-start;   /* left on mobile */
+    margin-bottom: 0.25rem;        /* tighten space under the badge column */
+  }
+  .pub-main {                      /* kill any top margin on the entry column */
+    margin-top: 0;
+  }
+  .pub-main .title {               /* remove top margin on the first line (title) */
+    margin-top: 0;
   }
 }
