@@ -74,7 +74,14 @@ ul.items li .item {
 
 .abbr {
   display: flex;
-  justify-content: center;
-  align-items: start;
+  justify-content: flex-end;
+  align-items: flex-start;
   margin-top: 0.4rem;
+}
+
+/* Phones: align left */
+@media (max-width: 575.98px) {
+  .abbr {
+    justify-content: flex-start;  /* left on mobile */
+  }
 }
