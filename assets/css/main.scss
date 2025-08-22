@@ -83,7 +83,7 @@ ul.items li .item {
 @media (max-width: 575.98px) {
   .abbr {
     justify-content: flex-start;   /* left on mobile */
-    margin-bottom: 0.25rem;        /* tighten space under the badge column */
+    margin-bottom: 0.0rem;        /* tighten space under the badge column */
   }
   .pub-main {                      /* kill any top margin on the entry column */
     margin-top: 0;
