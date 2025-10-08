@@ -23,14 +23,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-our-paper-ddeqs-distributional-deep-equilibrium-models-through-wasserstein-gradient-flows-was-accepted-to-aistats-2025",
-          title: 'Our paper DDEQs: Distributional Deep Equilibrium Models through Wasserstein Gradient Flows was accepted...',
-          description: "",
-          section: "News",},{id: "news-three-papers-accepted-to-icml-2025-universal-neural-optimal-transport-main-conference-entropy-driven-pre-tokenization-for-byte-pair-encoding-tokenization-workshop-and-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-spotlight-at-es-fomo-workshop",
+        },{id: "news-three-papers-accepted-to-icml-2025-universal-neural-optimal-transport-main-conference-entropy-driven-pre-tokenization-for-byte-pair-encoding-tokenization-workshop-and-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-spotlight-at-es-fomo-workshop",
           title: 'Three papers accepted to ICML 2025! Universal Neural Optimal Transport (main conference), Entropy-Driven...',
           description: "",
           section: "News",},{id: "news-i-was-selected-to-receive-a-kempner-institute-graduate-fellowship",
           title: 'I was selected to receive a Kempner Institute Graduate Fellowship!',
+          description: "",
+          section: "News",},{id: "news-new-preprint-out-boomerang-distillation-enables-zero-shot-model-size-interpolation-we-show-that-given-a-teacher-and-a-single-distilled-student-model-you-can-create-models-of-intermediate-sizes-without-any-additional-training",
+          title: 'New preprint out: Boomerang Distillation Enables Zero-Shot Model Size Interpolation. We show that...',
           description: "",
           section: "News",},{
         id: 'social-github',
