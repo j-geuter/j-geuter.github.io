@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-05-08
+date: 2025-10-08
 inline: true
 related_posts: false
 ---
 
-I was selected to receive a [Kempner Institute Graduate Fellowship](https://kempnerinstitute.harvard.edu/news/kempner-institute-announces-recipients-of-2025-graduate-fellowships/)!
+New preprint out: [Boomerang Distillation Enables Zero-Shot Model Size Interpolation](https://arxiv.org/abs/2510.05064). We show that given a teacher and a single distilled student model, you can create models of intermediate sizes without any additional training!

@@ -137,6 +137,21 @@
   ],
   "publications": [
     {
+      "name": "Boomerang Distillation Enables Zero-Shot Model Size Interpolation",
+      "publisher": "arXiv preprint",
+      "authors": ["Sara Kangaslahti", "Nihal V. Nayak*", "Jonathan Geuter*", "Marco Fumero", "Francesco Locatello", "David Alvarez-Melis"],
+      "date": "2025-10",
+      "url": "https://arxiv.org/abs/2510.05064",
+      "summary": ""
+    },
+    {
+      "name": "RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs",
+      "publisher": "1st Workshop on Foundations of Reasoning in Language Models at NeurIPS 2025, San Diego, USA",
+      "authors": ["Jonathan Geuter","Gregor Kornhardt"],
+      "date": "2025-09",
+      "summary": ""
+    },
+    {
       "name": "Guided Speculative Inference for Efficient Test-Time Alignment of LLMs",
       "publisher": "Spotlight, 3rd Workshop for Efficient Systems for Foundation Models at ICML 2025, Vancouver, Canada",
       "authors": ["Jonathan Geuter", "Youssef Mroueh", "David Alvarez-Melis"],
