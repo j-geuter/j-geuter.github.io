@@ -1,0 +1,18 @@
+<table class="table table-cv table-sm table-borderless table-responsive table-cv-map">
+  {% for item in data[1] %}
+    {% assign has_name = item.name | to_s | strip %}
+    {% assign has_desc = item.description | to_s | strip %}
+    {% if has_name == '' and has_desc == '' %}
+      {% continue %}
+    {% endif %}
+
+    <tr>
+      <td class="p-1 pr-2 font-weight-bold">
+        <b>{{ item.name }}</b>
+      </td>
+      <td class="p-1 pl-2 font-weight-light text">
+        {{ item.description }}
+      </td>
+    </tr>
+  {% endfor %}
+</table>

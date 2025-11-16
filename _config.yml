@@ -638,7 +638,9 @@ jsonresume:
   - publications
   - projects
   - volunteer
+  - talks
   - awards
+  - service
   - certificates
   - skills
   - languages

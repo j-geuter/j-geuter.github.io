@@ -6,7 +6,7 @@
     "phone": "",
     "Links": "<a href='https://scholar.google.com/citations?user=5CTwTC0AAAAJ&hl=en&oi=ao'>Google Scholar</a>, <a href='https://github.com/j-geuter'>GitHub</a>, <a href='https://www.linkedin.com/in/jonathan-geuter/'>LinkedIn</a>",
 
-    "summary": "PhD student in Applied Mathematics at Harvard. Passionate about machine learning, LLMs (particularly inference time algorithms and alignment), generative modeling (flow matching/diffusion models), and optimal transport. Kempner Graduate Fellow at the Kempner Institute for the Study of Natural & Artificial Intelligence at Harvard.",
+    "summary": "PhD student in Applied Mathematics at Harvard. Passionate about statistical machine learning, deep learning, and algorithm design, particularly in the areas of language models, test-time scaling, alignment, novel architectures (such as masked diffusion models), diffusion models, and optimal transport. Kempner Graduate Fellow at the Kempner Institute for the Study of Natural & Artificial Intelligence.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -192,7 +192,26 @@
       "summary": ""
     }
   ],
+  "talks": [
+    {
+      "date": "Aug 2025",
+      "summary": "Invited talk at Munich NLP about guided speculative inference (virtual)"
+    },
+    {
+      "date": "Jul 2025",
+      "summary": "Oral presentation at ICML 2025 Efficient Systems for Foundation Models Workshop about guided speculative inference"
+    }
+  ],
   "awards": [
+    {
+      "title": "IMC NeurIPS Travel Scholarship",
+      "date": "2025-11-01"
+    },
+    {
+      "title": "2026 G Research Spring into Quant Finance",
+      "date": "2025-10-02",
+      "summary": "selective quant finance program"
+    },
     {
       "title": "QuantCo ICML Travel Scholarship",
       "date": "2025-07-01"
@@ -222,6 +241,12 @@
       "awarder": "University of California, Berkeley",
       "summary": "Grant for two semesters of full-time study"
     }
+  ],
+  "service": [
+    {
+      "name": "Reviewer",
+      "description": "NeurIPS (2023, 2025), AISTATS (2024), ICML (2025), ICLR (2025)"
+  }
   ],
   "skills": [
     {

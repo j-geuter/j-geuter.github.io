@@ -101,8 +101,12 @@ layout: default
                   {% include resume/volunteer.liquid %}
                 {% when 'projects' %}
                   {% include resume/projects.liquid %}
+                {% when 'talks' %}
+                  {% include resume/talks.liquid %}  
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
+                {% when 'service' %}
+                  {% include resume/service.liquid %}  
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
