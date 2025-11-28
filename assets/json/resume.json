@@ -192,6 +192,40 @@
       "summary": ""
     }
   ],
+  "projects": [
+    {
+      "name": "finetuner (1.5k ★)",
+      "summary": "Contributed to Jina AI's finetuner, a repository for end-to-end finetuning of embedding models",
+      "url": "https://github.com/jina-ai/finetuner",
+      "startDate": "May 2023",
+      "endDate": "Aug 2023",
+      "company": "Jina AI"
+    },
+    {
+      "name": "FrankWolfe.jl (112 ★), CINDy",
+      "summary": "Contributed to a Julia package of the Frank-Wolfe algorithm, and a Python implementation of the CINDy algorithm",
+      "url": "https://github.com/ZIB-IOL/FrankWolfe.jl",
+      "startDate": "May 2021",
+      "endDate": "Nov 2022",
+      "company": "Zuse Institute Berlin"
+    },
+    {
+      "name": "A Sinkhorn-NN Hybrid Algorithm for Optimal Transport",
+      "summary": "Master's Thesis",
+      "url": "https://j-geuter.github.io/assets/pdf/MasterThesis.pdf",
+      "startDate": "May 2022",
+      "endDate": "Oct 2022",
+      "company": "TU Berlin"
+    },
+    {
+      "name": "Nonlinear Korn Inequalities",
+      "summary": "Bachelor's Thesis",
+      "url": "https://j-geuter.github.io/assets/pdf/BachelorThesis.pdf",
+      "startDate": "Jun 2020",
+      "endDate": "Sep 2020",
+      "company": "TU Berlin"
+    }
+  ],
   "talks": [
     {
       "date": "Aug 2025",
