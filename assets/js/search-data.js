@@ -32,6 +32,9 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-out-boomerang-distillation-enables-zero-shot-model-size-interpolation-we-show-that-given-a-teacher-and-a-single-distilled-student-model-you-can-create-models-of-intermediate-sizes-without-any-additional-training",
           title: 'New preprint out: Boomerang Distillation Enables Zero-Shot Model Size Interpolation. We show that...',
           description: "",
+          section: "News",},{id: "news-two-papers-accepted-to-iclr-2026-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-and-boomerang-distillation-enables-zero-shot-model-size-interpolation",
+          title: 'Two papers accepted to ICLR 2026! Guided Speculative Inference for Efficient Test-Time Alignment...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
