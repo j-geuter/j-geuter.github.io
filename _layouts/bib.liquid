@@ -160,7 +160,10 @@
       {% assign highlighted_title = entry.booktitle 
           | replace: "Spotlight", "<strong>Spotlight</strong>" %}
       {% capture entrytype %}
-        <em>Accepted to {{ highlighted_title }}</em>
+        <em>{{ highlighted_title }}</em>
+        {% comment %}  
+          previously <em>Accepted to {{ highlighted_title }}</em>
+        {% endcomment %}
       {% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}

@@ -138,7 +138,7 @@
   "publications": [
     {
       "name": "Boomerang Distillation Enables Zero-Shot Model Size Interpolation",
-      "publisher": "arXiv preprint",
+      "publisher": "ICLR 2026, Rio de Janeiro, Brazil. Previously: 3rd UniReps Workshop at NeurIPS 2025",
       "authors": ["Sara Kangaslahti", "Nihal V. Nayak*", "Jonathan Geuter*", "Marco Fumero", "Francesco Locatello", "David Alvarez-Melis"],
       "date": "2025-10",
       "url": "https://arxiv.org/abs/2510.05064",
@@ -146,14 +146,14 @@
     },
     {
       "name": "RoBoN: Routed Online Best-of-n for Test-Time Scaling with Multiple LLMs",
-      "publisher": "1st Workshop on Foundations of Reasoning in Language Models at NeurIPS 2025, San Diego, USA",
+      "publisher": "1st FoRLM Workshop at NeurIPS 2025, San Diego, USA",
       "authors": ["Jonathan Geuter","Gregor Kornhardt"],
       "date": "2025-09",
       "summary": ""
     },
     {
       "name": "Guided Speculative Inference for Efficient Test-Time Alignment of LLMs",
-      "publisher": "Spotlight, 3rd Workshop for Efficient Systems for Foundation Models at ICML 2025, Vancouver, Canada",
+      "publisher": "ICLR 2026, Rio de Janeiro, Brazil. Previously: 3rd ES-FoMo Workshop at ICML 2025 (Spotlight), Vancouver, Canada",
       "authors": ["Jonathan Geuter", "Youssef Mroueh", "David Alvarez-Melis"],
       "date": "2025-07",
       "url": "https://arxiv.org/abs/2506.04118",
@@ -185,7 +185,7 @@
     },
     {
       "name": "Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models",
-      "publisher": "NLP-OSS 2023, EMNLP, Singapore",
+      "publisher": "3rd NLP-OSS Workshop at EMNLP 2023, Singapore.",
       "authors": ["Michael Günther","Louis Milliken","Jonathan Geuter","Georgios Mastrapas","Bo Wang","Han Xiao"],
       "date": "2023-11",
       "url": "https://openreview.net/forum?id=3HTUlrn6o7",

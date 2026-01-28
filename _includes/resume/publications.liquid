@@ -10,7 +10,11 @@
           <strong>{{ entry.name }}</strong>
         {%- endif -%}
         {%- comment -%} Authors then Publisher, all on one line {%- endcomment -%}
-        {%- if entry.authors -%}, {{ entry.authors | join: ", " }}{%- endif -%}{%- if entry.publisher -%}, <em>{{ entry.publisher
+        {%- if entry.authors -%}, {{ entry.authors | join: ", " }}{%- endif -%}
+        {%- if entry.publisher -%}, <em>{{ entry.publisher
+            | replace: "Spotlight", "<strong>Spotlight</strong>"
+            | replace: "Oral",      "<strong>Oral</strong>" }}</em>{%- endif -%}
+        {%- if entry.note -%}, <em>{{ entry.note
             | replace: "Spotlight", "<strong>Spotlight</strong>"
             | replace: "Oral",      "<strong>Oral</strong>" }}</em>{%- endif -%}
       </div>
