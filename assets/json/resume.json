@@ -74,6 +74,24 @@
   ],
   "work": [
     {
+      "name": "IMC Trading",
+      "location": "Sydney, Australia",
+      "position": "Quantitative Research Intern (incoming)",
+      "startDate": "2026-11-24",
+      "endDate": "2027-01-24",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "name": "Institute of Foundation Models",
+      "location": "Sunnyvale, US",
+      "position": "AI Research Intern (incoming)",
+      "startDate": "2026-05-17",
+      "endDate": "2026-09-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "name": "Harvard University",
       "location": "Cambridge, US",
       "position": "TA for Computational Science and Engineering Capstone Class",
@@ -136,6 +154,14 @@
     }
   ],
   "publications": [
+    {
+      "name": "Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training",
+      "publisher": "In submission",
+      "authors": ["Jaeyeon Kim*", "Jonathan Geuter*", "David Alvarez-Melis", "Sham Kakade", "Sitan Chen"],
+      "date": "2026-02",
+      "url": "https://www.arxiv.org/abs/2602.10314",
+      "summary": ""
+    },
     {
       "name": "Boomerang Distillation Enables Zero-Shot Model Size Interpolation",
       "publisher": "ICLR 2026, Rio de Janeiro, Brazil. Previously: 3rd UniReps Workshop at NeurIPS 2025",
