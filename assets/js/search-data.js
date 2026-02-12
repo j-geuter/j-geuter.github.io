@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-papers-accepted-to-iclr-2026-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-and-boomerang-distillation-enables-zero-shot-model-size-interpolation",
           title: 'Two papers accepted to ICLR 2026! Guided Speculative Inference for Efficient Test-Time Alignment...',
           description: "",
+          section: "News",},{id: "news-new-preprint-out-stop-training-for-the-worst-progressive-unmasking-accelerates-masked-diffusion-training-we-propose-a-simple-modification-to-the-forward-masking-process-of-masked-diffusion-models-that-speeds-up-training-by-up-to-2-5x",
+          title: 'New preprint out: Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
