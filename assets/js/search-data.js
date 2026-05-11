@@ -38,6 +38,12 @@ ninja.data = [{
           section: "News",},{id: "news-new-preprint-out-stop-training-for-the-worst-progressive-unmasking-accelerates-masked-diffusion-training-we-propose-a-simple-modification-to-the-forward-masking-process-of-masked-diffusion-models-that-speeds-up-training-by-up-to-2-5x",
           title: 'New preprint out: Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion...',
           description: "",
+          section: "News",},{id: "news-our-paper-stop-training-for-the-worst-progressive-unmasking-accelerates-masked-diffusion-training-was-accepted-to-icml-2026",
+          title: 'Our paper Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training...',
+          description: "",
+          section: "News",},{id: "news-i-ll-work-as-an-ai-research-intern-at-the-institute-of-foundation-models-in-sunnyvale-ca-for-the-summer-i-ll-be-advised-by-subham-sahoo",
+          title: 'I’ll work as an AI Research Intern at the Institute of Foundation Models...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
