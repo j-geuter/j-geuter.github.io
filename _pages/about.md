@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 #latest_posts:
 #  enabled: true
@@ -28,7 +28,8 @@ announcements:
 ---
 
 Hello!  
-I'm a third year PhD student in Applied Mathematics in the [ML Foundations](https://mlfoundations.org/) group at Harvard University, advised by [David Alvarez-Melis](https://dmelis.github.io/). I am fortunate to be supported by a [Kempner Graduate Fellowship](https://kempnerinstitute.harvard.edu/education/graduate-fellowship/) at the [Kempner Institute for the Study of Natural & Artificial Intelligence](https://kempnerinstitute.harvard.edu/). My current research focuses on developing new and efficient methods for LLMs, in particular for test-time scaling and model distillation. I'm also very interested in masked diffusion models, and in diffusion models/flow matching more generally. I've worked a lot on optimal transport (OT) for machine learning, and utilized ideas from OT to derive rigorous machine learning algorithms.
+I'm a third year PhD student in Applied Mathematics in the [ML Foundations](https://mlfoundations.org/) group at Harvard University, advised by [David Alvarez-Melis](https://dmelis.github.io/). I am fortunate to be supported by a [Kempner Graduate Fellowship](https://kempnerinstitute.harvard.edu/education/graduate-fellowship/) at the [Kempner Institute for the Study of Natural & Artificial Intelligence](https://kempnerinstitute.harvard.edu/). My current research focuses on developing new and efficient methods for LLMs, in particular for diffusion language models and model distillation. 
+I'm also very interested in diffusion models/flow matching more generally, optimal transport (OT) for machine learning, and using ideas from OT to derive rigorous machine learning algorithms.
 Previously, I completed my Bachelor's and Master's in mathematics at [TU Berlin](https://www.tu.berlin/en/), including a year at [UC Berkeley](https://www.berkeley.edu/).
 
 Feel free to reach out, I'm always happy to discuss research ideas! If you're an undergrad or master's student interested in working with me, please drop me an e-mail with [Interested in collaboration] in the subject line.

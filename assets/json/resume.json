@@ -6,7 +6,7 @@
     "phone": "",
     "Links": "<a href='https://scholar.google.com/citations?user=5CTwTC0AAAAJ&hl=en&oi=ao'>Google Scholar</a>, <a href='https://github.com/j-geuter'>GitHub</a>, <a href='https://www.linkedin.com/in/jonathan-geuter/'>LinkedIn</a>",
 
-    "summary": "PhD student in Applied Mathematics at Harvard. Passionate about statistical machine learning, deep learning, and algorithm design, particularly in the areas of language models, test-time scaling, alignment, novel architectures (such as masked diffusion models), diffusion models, and optimal transport. Kempner Graduate Fellow at the Kempner Institute for the Study of Natural & Artificial Intelligence.",
+    "summary": "PhD student in Applied Mathematics at Harvard. I work on efficient methods for training, post-training, and inference of language models across both autoregressive LLMs and diffusion LLMs. Passionate about alignment, knowledge distillation, novel architectures, diffusion models, and optimal transport. Kempner Graduate Fellow at the Kempner Institute for the Study of Natural & Artificial Intelligence.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -85,7 +85,7 @@
     {
       "name": "Institute of Foundation Models",
       "location": "Sunnyvale, US",
-      "position": "AI Research Intern (incoming)",
+      "position": "AI Research Intern",
       "startDate": "2026-05-17",
       "endDate": "2026-09-01",
       "summary": "",
@@ -156,7 +156,7 @@
   "publications": [
     {
       "name": "Stop Training for the Worst: Progressive Unmasking Accelerates Masked Diffusion Training",
-      "publisher": "In submission",
+      "publisher": "ICML 2026, Seoul, South Korea. Previously: MM Intelligence Workshop at ICLR 2026",
       "authors": ["Jaeyeon Kim*", "Jonathan Geuter*", "David Alvarez-Melis", "Sham Kakade", "Sitan Chen"],
       "date": "2026-02",
       "url": "https://www.arxiv.org/abs/2602.10314",
@@ -179,7 +179,7 @@
     },
     {
       "name": "Guided Speculative Inference for Efficient Test-Time Alignment of LLMs",
-      "publisher": "ICLR 2026, Rio de Janeiro, Brazil. Previously: 3rd ES-FoMo Workshop at ICML 2025 (Spotlight), Vancouver, Canada",
+      "publisher": "ICLR 2026, Rio de Janeiro, Brazil. Previously: 3rd ES-FoMo Workshop at ICML 2025 (Spotlight)",
       "authors": ["Jonathan Geuter", "Youssef Mroueh", "David Alvarez-Melis"],
       "date": "2025-07",
       "url": "https://arxiv.org/abs/2506.04118",
