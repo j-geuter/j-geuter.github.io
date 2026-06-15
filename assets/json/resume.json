@@ -264,13 +264,17 @@
   ],
   "awards": [
     {
-      "title": "IMC NeurIPS Travel Scholarship",
-      "date": "2025-11-01"
+      "title": "QRT ICML Travel Grant",
+      "date": "2026-06-12"
     },
     {
-      "title": "2026 G Research Spring into Quant Finance",
-      "date": "2025-10-02",
+      "title": "G Research Spring into Quant Finance",
+      "date": "2026-04-12",
       "summary": "selective quant finance program"
+    },
+    {
+      "title": "IMC NeurIPS Travel Scholarship",
+      "date": "2025-11-01"
     },
     {
       "title": "QuantCo ICML Travel Scholarship",
