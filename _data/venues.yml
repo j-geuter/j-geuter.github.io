@@ -1,9 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Optional: venue abbreviation metadata for publication badges (see al-folio docs).
+# Example:
+# "ICML":
+#   url: https://icml.cc
+#   color: "#00369f"

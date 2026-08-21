@@ -28,8 +28,8 @@ announcements:
 ---
 
 Hello!  
-I'm a third year PhD student in Applied Mathematics in the [ML Foundations](https://mlfoundations.org/) group at Harvard University, advised by [David Alvarez-Melis](https://dmelis.github.io/). I am fortunate to be supported by a [Kempner Graduate Fellowship](https://kempnerinstitute.harvard.edu/education/graduate-fellowship/) at the [Kempner Institute for the Study of Natural & Artificial Intelligence](https://kempnerinstitute.harvard.edu/). My current research focuses on developing new and efficient methods for LLMs, in particular for diffusion language models and model distillation. 
-I'm also very interested in diffusion models/flow matching more generally, optimal transport (OT) for machine learning, and using ideas from OT to derive rigorous machine learning algorithms.
+I'm a fourth year PhD student in Applied Mathematics in the [ML Foundations](https://mlfoundations.org/) group at Harvard University, advised by [David Alvarez-Melis](https://dmelis.github.io/). I am fortunate to be supported by a [Kempner Graduate Fellowship](https://kempnerinstitute.harvard.edu/education/graduate-fellowship/) at the [Kempner Institute for the Study of Natural & Artificial Intelligence](https://kempnerinstitute.harvard.edu/). My current research focuses on developing new and efficient methods for LLMs, in particular for diffusion language models, multi-token prediction, and model distillation. 
+I'm also very interested in diffusion models/flow matching more generally, and in using ideas from optimal transport to derive rigorous machine learning algorithms.
 Previously, I completed my Bachelor's and Master's in mathematics at [TU Berlin](https://www.tu.berlin/en/), including a year at [UC Berkeley](https://www.berkeley.edu/).
 
 Feel free to reach out, I'm always happy to discuss research ideas! If you're an undergrad or master's student interested in working with me, please drop me an e-mail with [Interested in collaboration] in the subject line.
