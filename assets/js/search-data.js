@@ -44,6 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-work-as-an-ai-research-intern-at-the-institute-of-foundation-models-in-sunnyvale-ca-for-the-summer-i-ll-be-advised-by-subham-sahoo",
           title: 'I’ll work as an AI Research Intern at the Institute of Foundation Models...',
           description: "",
+          section: "News",},{id: "news-two-new-follow-up-works-to-boomerang-distillation-out-understanding-layer-patching-in-model-size-interpolation-accepted-to-the-adaptfm-workshop-at-icml-2026-and-thinking-at-the-right-size-amortized-distillation-across-post-trained-llms-accepted-to-emnlp-2026-these-papers-explore-extending-boomerang-distillation-to-post-trained-models-and-better-understanding-its-layer-patching-mechanism",
+          title: 'Two new follow-up works to boomerang distillation out: Understanding Layer Patching in Model...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
