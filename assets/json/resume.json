@@ -155,6 +155,14 @@
   ],
   "publications": [
     {
+      "name": "Thinking at the Right Size: Amortized Distillation Across Post-Trained LLMs",
+      "publisher": "Findings of EMNLP 2026, Budapest, Hungary",
+      "authors": ["Yan Zhou", "Sara Kangaslahti*", "Jonathan Geuter*", "Nihal V. Nayak", "Marco Fumero", "Francesco Locatello", "David Alvarez-Melis"],
+      "date": "2026-08",
+      "url": "https://arxiv.org/abs/2608.22854",
+      "summary": ""
+    },
+    {
       "name": "Understanding Layer Patching in Model Size Interpolation",
       "publisher": "AdaptFM: Resource-Adaptive Foundation Model Inference Workshop at ICML 2026, Seoul, South Korea",
       "authors": ["Sara Kangaslahti", "Jonathan Geuter*", "Nihal V. Nayak*", "Marco Fumero*", "Francesco Locatello", "David Alvarez-Melis"],
