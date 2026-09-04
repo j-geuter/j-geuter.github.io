@@ -47,6 +47,9 @@ ninja.data = [{
           section: "News",},{id: "news-two-new-follow-up-works-to-boomerang-distillation-out-understanding-layer-patching-in-model-size-interpolation-accepted-to-the-adaptfm-workshop-at-icml-2026-and-thinking-at-the-right-size-amortized-distillation-across-post-trained-llms-accepted-to-emnlp-2026-these-papers-explore-extending-boomerang-distillation-to-post-trained-models-and-better-understanding-its-layer-patching-mechanism",
           title: 'Two new follow-up works to boomerang distillation out: Understanding Layer Patching in Model...',
           description: "",
+          section: "News",},{id: "news-i-helped-train-ifm-s-suite-of-fully-open-source-language-models-coming-in-sizes-from-0-9b-to-375b-we-also-developed-uno-a-lossless-discrete-diffusion-framework-which-accelerates-decoding-by-up-to-2-5x-compared-to-autoregressive-sampling-we-provide-uno-adapters-for-qwen3-8b-and-our-own-0-9b-and-7b-models-check-out-the-paper-unlocking-lossless-speedups-in-llms-via-discrete-diffusion",
+          title: 'I helped train IFM’s suite of fully open-source language models, coming in sizes...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
