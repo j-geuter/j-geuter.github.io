@@ -155,6 +155,14 @@
   ],
   "publications": [
     {
+      "name": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+      "publisher": "arXiv preprint",
+      "authors": ["Subham Sekhar Sahoo*", "Lingjie Chen*", "Khiem Pham*", "Jonathan Geuter*", "Chaitanya Dwivedi", "Varad Pimpalkhute", "Yash Akhauri", "Alexander Moreno", "Mikhail Yurochkin", "Zhenting Wang", "Mostafa Elhoushi", "Nolan Dey", "Shane Bergsma", "Joel Hestness", "John Thickstun", "Eric Xing", "Zhengzhong Liu"],
+      "date": "2026-09",
+      "url": "https://arxiv.org/abs/2609.04010",
+      "summary": ""
+    },
+    {
       "name": "Thinking at the Right Size: Amortized Distillation Across Post-Trained LLMs",
       "publisher": "Findings of EMNLP 2026, Budapest, Hungary",
       "authors": ["Yan Zhou", "Sara Kangaslahti*", "Jonathan Geuter*", "Nihal V. Nayak", "Marco Fumero", "Francesco Locatello", "David Alvarez-Melis"],
