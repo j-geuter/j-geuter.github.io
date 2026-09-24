@@ -50,6 +50,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-helped-train-ifm-s-suite-of-fully-open-source-language-models-coming-in-sizes-from-0-9b-to-375b-we-also-developed-uno-a-lossless-discrete-diffusion-framework-which-accelerates-decoding-by-up-to-2-5x-compared-to-autoregressive-sampling-we-provide-uno-adapters-for-qwen3-8b-and-our-own-0-9b-and-7b-models-check-out-the-paper-unlocking-lossless-speedups-in-llms-via-discrete-diffusion",
           title: 'I helped train IFM’s suite of fully open-source language models, coming in sizes...',
           description: "",
+          section: "News",},{id: "news-our-paper-understanding-layer-patching-in-model-size-interpolation-was-accepted-to-neurips-2026",
+          title: 'Our paper Understanding Layer Patching in Model Size Interpolation was accepted to NeurIPS...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
