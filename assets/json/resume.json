@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jonathan Geuter",
     "image": "prof_pic.jpg",
-    "email": "j[last name] at g.harvard.edu",
+    "email": "[firstname].[lastname] at gmx.de",
     "phone": "",
     "Links": "<a href='https://scholar.google.com/citations?user=5CTwTC0AAAAJ&hl=en&oi=ao'>Google Scholar</a>, <a href='https://github.com/j-geuter'>GitHub</a>, <a href='https://www.linkedin.com/in/jonathan-geuter/'>LinkedIn</a>",
 
@@ -36,10 +36,20 @@
       "location": "Cambridge, US",
       "area": "Applied Mathematics",
       "studyType": "PhD",
-      "startDate": "2023-09-01",
+      "startDate": "2023-09-02",
       "endDate": "2028-05-01",
       "score": "",
-      "courses": ["MSc in Computer Science en route"]
+      "courses": []
+    },
+    {
+      "institution": "Harvard University",
+      "location": "Cambridge, US",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2023-09-01",
+      "endDate": "2025-05-01",
+      "score": "",
+      "courses": ["En route to the PhD"]
     },
     {
       "institution": "Technische Universität Berlin",
@@ -55,7 +65,7 @@
       "institution": "University of California, Berkeley",
       "location": "Berkeley, US",
       "area": "",
-      "studyType": "Exchange Program",
+      "studyType": "UC Education Abroad Program",
       "startDate": "2018-08-01",
       "endDate": "2019-05-01",
       "score": "",
@@ -94,7 +104,7 @@
     {
       "name": "Harvard University",
       "location": "Cambridge, US",
-      "position": "TA for Computational Science and Engineering Capstone Class",
+      "position": "TA for Computational Science and Engineering Capstone Project Class",
       "startDate": "2025-01-01",
       "endDate": "2025-05-01",
       "summary": "",
@@ -106,15 +116,15 @@
       "position": "Machine Learning Intern",
       "startDate": "2023-05-01",
       "endDate": "2023-08-31",
-      "highlights": ["Trained open source language embedding models"]
+      "highlights": ["Trained state-of-the-art open source language embedding models [<a href='https://huggingface.co/collections/jinaai/jina-embeddings-v1-65708ebcf56f9538677ac37c'>Hugging Face</a>]"]
     },
     {
       "name": "Zuse Institute Berlin",
       "location": "Berlin, Germany",
-      "position": "Research Assistant, IOL Lab",
+      "position": "Research Assistant",
       "startDate": "2021-05-01",
       "endDate": "2022-11-30",
-      "highlights": ["Contributed to Frank–Wolfe Julia package", "Worked on GNN implementations"]
+      "highlights": ["Worked on a Julia package for the Frank-Wolfe algorithm and GNNs in the <a href='https://iol.zib.de/'>Laboratory for Interactive Optimization and Learning</a>"]
     },
     {
       "name": "Technische Universität Berlin",
@@ -172,7 +182,7 @@
     },
     {
       "name": "Understanding Layer Patching in Model Size Interpolation",
-      "publisher": "AdaptFM: Resource-Adaptive Foundation Model Inference Workshop at ICML 2026, Seoul, South Korea",
+      "publisher": "NeurIPS 2026, Sydney, Australia. Previously: AdaptFM Workshop at ICML 2026",
       "authors": ["Sara Kangaslahti", "Jonathan Geuter*", "Nihal V. Nayak*", "Marco Fumero*", "Francesco Locatello", "David Alvarez-Melis"],
       "date": "2026-07",
       "url": "https://arxiv.org/abs/2607.08170",
@@ -236,7 +246,7 @@
     },
     {
       "name": "Jina Embeddings: A Novel Set of High-Performance Sentence Embedding Models",
-      "publisher": "3rd NLP-OSS Workshop at EMNLP 2023, Singapore.",
+      "publisher": "3rd NLP-OSS Workshop at EMNLP 2023, Singapore",
       "authors": ["Michael Günther","Louis Milliken","Jonathan Geuter","Georgios Mastrapas","Bo Wang","Han Xiao"],
       "date": "2023-11",
       "url": "https://openreview.net/forum?id=3HTUlrn6o7",
@@ -244,6 +254,14 @@
     }
   ],
   "projects": [
+    {
+      "name": "K2 Horizon",
+      "summary": "Contributed to K2 Horizon, a suite of open-source language models ranging from 0.9B to 375B, the largest fully open-sourced LLM release of this scale",
+      "url": "https://ifm.ai/k2/",
+      "startDate": "May 2026",
+      "endDate": "Sep 2026",
+      "company": "Institute of Foundation Models"
+    },
     {
       "name": "finetuner (1.5k ★)",
       "summary": "Contributed to Jina AI's finetuner, a repository for end-to-end finetuning of embedding models",
@@ -253,7 +271,7 @@
       "company": "Jina AI"
     },
     {
-      "name": "FrankWolfe.jl (112 ★), CINDy",
+      "name": "FrankWolfe.jl (>100 ★), CINDy",
       "summary": "Contributed to a Julia package of the Frank-Wolfe algorithm, and a Python implementation of the CINDy algorithm",
       "url": "https://github.com/ZIB-IOL/FrankWolfe.jl",
       "startDate": "May 2021",
@@ -266,7 +284,7 @@
       "url": "https://j-geuter.github.io/assets/pdf/MasterThesis.pdf",
       "startDate": "May 2022",
       "endDate": "Oct 2022",
-      "company": "TU Berlin"
+      "company": "TU Berlin and Weierstrass Institute"
     },
     {
       "name": "Nonlinear Korn Inequalities",
@@ -274,7 +292,7 @@
       "url": "https://j-geuter.github.io/assets/pdf/BachelorThesis.pdf",
       "startDate": "Jun 2020",
       "endDate": "Sep 2020",
-      "company": "TU Berlin"
+      "company": "TU Berlin and HU Berlin"
     }
   ],
   "talks": [
@@ -334,19 +352,19 @@
   "service": [
     {
       "name": "Reviewer",
-      "description": "NeurIPS (2023, 2025), AISTATS (2024), ICML (2025, 2026), ICLR (2025)"
+      "description": "NeurIPS (2023, 2025), AISTATS (2024), ICML (2025, 2026), ICLR (2025, 2026)"
   }
   ],
   "skills": [
     {
       "name": "Programming",
       "level": "Advanced",
-      "keywords": ["PyTorch", "transformers", "vLLM", "NumPy", "TensorFlow", "JAX", "scikit-learn", "pandas", "multiprocessing", "distributed training", "Julia"]
+      "keywords": ["Python", "PyTorch", "transformers", "SGLang", "vLLM", "nano-vLLM", "NumPy", "TensorFlow", "JAX", "scikit-learn", "pandas", "Lightning", "multiprocessing", "verl", "distributed training", "Julia"]
     },
     {
-      "name": "Tools & Technologies",
+      "name": "Miscellaneous",
       "level": "Proficient",
-      "keywords": ["Bash", "LaTeX", "Git"]
+      "keywords": ["Bash", "LaTeX", "Git", "Slurm", "AWS", "LLM evals (lm-eval, Daytona, Harbor, etc.)"]
     }
   ],
   "languages": [
@@ -360,19 +378,19 @@
     },
     {
       "language": "French",
-      "fluency": "Basic proficiency (certified level B1)"
+      "fluency": "Basic proficiency (certified level B1, 4 years in high school)"
     },
     {
       "language": "Mandarin",
-      "fluency": "Basic proficiency (5 years)"
+      "fluency": "Basic proficiency (5 years in high school)"
     },
     {
       "language": "Spanish",
-      "fluency": "Basic proficiency (two semesters)"
+      "fluency": "Basic proficiency (two semesters at Berliner Volkshochschulen)"
     },
     {
       "language": "Italian",
-      "fluency": "Basic proficiency (one semester)"
+      "fluency": "Basic proficiency (one semester at UC Berkeley)"
     }
   ],
   "interests": [
@@ -382,7 +400,7 @@
     },
     {
       "name": "Politics",
-      "keywords": ["German Green Party", "European Horizons Chapter co-founder"]
+      "keywords": ["German Green Party", "European Horizons Chapter TU Berlin co-founder"]
     },
     {
       "name": "Volunteering",

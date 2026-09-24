@@ -11,7 +11,7 @@ profile:
   more_info: #>
     #<p>PhD Student in Applied Math</p>
     #<p>Harvard University</p>
-    #<p>j[lastname] at g.harvard.edu</p>
+    #<p>[firstname].[lastname] at gmx.de</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

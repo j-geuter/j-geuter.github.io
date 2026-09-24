@@ -7,7 +7,7 @@ first_name: Jonathan
 middle_name:
 last_name: Geuter
 contact_note: >
-  Feel free to reach out to me at j[lastname] at g.harvard.edu
+  Feel free to reach out to me at [firstname].[lastname] at gmx.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Visit Jonathan Geuter’s personal homepage: https://j-geuter.github.io/
 footer_text: >

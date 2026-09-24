@@ -18,8 +18,8 @@
         {% elsif content[0] == 'email' %}
           <a
             href="mailto:{{ content[1]
-              | replace: '[first name]', 'jonathan'
-              | replace: '[last name]',  'geuter'
+              | replace: '[firstname]', 'jonathan'
+              | replace: '[lastname]',  'geuter'
               | replace: ' at ',          '@'
             }}"
             target="_blank"
