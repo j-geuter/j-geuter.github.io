@@ -53,6 +53,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-understanding-layer-patching-in-model-size-interpolation-was-accepted-to-neurips-2026",
           title: 'Our paper Understanding Layer Patching in Model Size Interpolation was accepted to NeurIPS...',
           description: "",
+          section: "News",},{id: "news-we-release-jeff-a-suite-of-state-of-the-art-decision-models-that-outperform-typesafe-s-jev-model-across-a-wide-range-of-tasks-we-open-source-our-models-serving-code-and-opendecisions-a-novel-decision-model-validation-dataset-check-out-the-tech-report-releasing-the-inner-jev-a-simple-recipe-for-open-decision-models",
+          title: 'We release Jeff, a suite of state-of-the-art decision models that outperform TypeSafe’s Jev...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
