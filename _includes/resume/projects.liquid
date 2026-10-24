@@ -19,24 +19,26 @@
             {%- assign end_str = "Present" -%}
           {%- endif -%}
 
-          <div class="text-dark text-center">
-            {%- if content.startDate -%}
-              {{ start_str }} – {{ end_str }}
-            {%- elsif content.endDate -%}
-              {{ end_str }}
-            {%- endif -%}
-          </div>
-
-          {%- if content.company or content.location -%}
-            <div class="text-dark text-left mt-1">
-              {%- if content.company -%}
-                <p class="mb-0">{{ content.company }}</p>
-              {%- endif -%}
-              {%- if content.location -%}
-                <p class="mb-0">{{ content.location }}</p>
+          <div class="date-company">
+            <div class="text-dark text-center">
+              {%- if content.startDate -%}
+                {{ start_str }} – {{ end_str }}
+              {%- elsif content.endDate -%}
+                {{ end_str }}
               {%- endif -%}
             </div>
-          {%- endif -%}
+
+            {%- if content.company or content.location -%}
+              <div class="text-dark text-left mt-1 company">
+                {%- if content.company -%}
+                  <p class="mb-0">{{ content.company }}</p>
+                {%- endif -%}
+                {%- if content.location -%}
+                  <p class="mb-0">{{ content.location }}</p>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
 
         </div>
 

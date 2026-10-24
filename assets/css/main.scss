@@ -32,6 +32,13 @@ $max-content-width: {{ site.max_width }};
 .date-column .location {
   font-size: 0.8rem;  /* fontsize for location */
 }
+.date-column .date-company {
+  width: min-content;  /* as wide as the unwrapped date line, so the company wraps at the same width */
+  min-width: 100%;     /* but never narrower than the column itself */
+}
+.date-column .company {
+  white-space: normal;  /* let long company names wrap instead of overlapping the next column */
+}
 ul.items li {
   font-size: 0.8rem;           /* whatever you chose for the smaller text */
   line-height: 1.2;            /* tighten up the line‐height if needed */

@@ -6,7 +6,7 @@
     "phone": "",
     "Links": "<a href='https://scholar.google.com/citations?user=5CTwTC0AAAAJ&hl=en&oi=ao'>Google Scholar</a>, <a href='https://github.com/j-geuter'>GitHub</a>, <a href='https://www.linkedin.com/in/jonathan-geuter/'>LinkedIn</a>",
 
-    "summary": "PhD student in Applied Mathematics at Harvard. I work on efficient methods for training, post-training, and inference of language models across both autoregressive LLMs and diffusion LLMs. Passionate about alignment, knowledge distillation, novel architectures, diffusion models, and optimal transport. Kempner Graduate Fellow at the Kempner Institute for the Study of Natural & Artificial Intelligence.",
+    "summary": "PhD student in Applied Mathematics at Harvard. I work on efficient methods for training, post-training, and inference of language models across autoregressive LLMs, diffusion LLMs, and decision models. Passionate about alignment, knowledge distillation, novel architectures, and optimal transport. Kempner Graduate Fellow at the Kempner Institute for the Study of Natural & Artificial Intelligence.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -165,6 +165,22 @@
   ],
   "publications": [
     {
+      "name": "Beyond the Point Mass: Acceptance-Derived Weights and Distributional Losses for Speculative Decoding",
+      "publisher": "In submission",
+      "authors": ["Tianyu Wu", "Zhuohan Wang", "Jonathan Geuter", "Yu Yao", "Weifan Jiang", "Chengxi Zhang", "Ju Li", "Minlan Yu"],
+      "date": "2026-10-20",
+      "url": "https://arxiv.org/abs/2610.28355",
+      "summary": ""
+    },
+    {
+      "name": "Releasing the Inner Jev: A Simple Recipe for Open Decision Models",
+      "publisher": "arXiv preprint",
+      "authors": ["Jonathan Geuter*", "Andrew Cheng*", "David Alvarez-Melis"],
+      "date": "2026-10-12",
+      "url": "https://arxiv.org/abs/2610.17205",
+      "summary": ""
+    },
+    {
       "name": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
       "publisher": "arXiv preprint",
       "authors": ["Subham Sekhar Sahoo*", "Lingjie Chen*", "Khiem Pham*", "Jonathan Geuter*", "Chaitanya Dwivedi", "Varad Pimpalkhute", "Yash Akhauri", "Alexander Moreno", "Mikhail Yurochkin", "Zhenting Wang", "Mostafa Elhoushi", "Nolan Dey", "Shane Bergsma", "Joel Hestness", "John Thickstun", "Eric Xing", "Zhengzhong Liu"],
@@ -254,6 +270,12 @@
     }
   ],
   "projects": [
+    {
+      "name": "Jeff models",
+      "summary": "Trained a suite of state-of-the-art open-source decision models with sizes ranging from 4B to 31B parameters [<a href='https://huggingface.co/collections/jgeuter/jeff-10'>Models</a> / <a href='https://github.com/j-geuter/Jeff'>GitHub</a> / <a href='https://arxiv.org/abs/2610.17205'>Tech Report</a>]",
+      "url": "https://huggingface.co/collections/jgeuter/jeff-10",
+      "endDate": "Oct 2026"
+    },
     {
       "name": "K2 Horizon",
       "summary": "Contributed to K2 Horizon, a suite of open-source language models ranging from 0.9B to 375B, the largest fully open-sourced LLM release of this scale",

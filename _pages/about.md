@@ -28,7 +28,7 @@ announcements:
 ---
 
 Hello!  
-I'm a fourth year PhD student in Applied Mathematics in the [ML Foundations](https://mlfoundations.org/) group at Harvard University, advised by [David Alvarez-Melis](https://dmelis.github.io/). I am fortunate to be supported by a [Kempner Graduate Fellowship](https://kempnerinstitute.harvard.edu/education/graduate-fellowship/) at the [Kempner Institute for the Study of Natural & Artificial Intelligence](https://kempnerinstitute.harvard.edu/). My current research focuses on developing efficient methods for training, post-training, and inference of language models across both autoregressive LLMs and diffusion LLMs. 
+I'm a fourth year PhD student in Applied Mathematics in the [ML Foundations](https://mlfoundations.org/) group at Harvard University, advised by [David Alvarez-Melis](https://dmelis.github.io/). I am fortunate to be supported by a [Kempner Graduate Fellowship](https://kempnerinstitute.harvard.edu/education/graduate-fellowship/) at the [Kempner Institute for the Study of Natural & Artificial Intelligence](https://kempnerinstitute.harvard.edu/). My current research focuses on developing efficient methods for training, post-training, and inference of language models across autoregressive LLMs, diffusion LLMs, and decision models. 
 I'm also very interested in diffusion models/flow matching more generally, and in using ideas from optimal transport to derive rigorous machine learning algorithms.
 Previously, I completed my Bachelor's and Master's in mathematics at [TU Berlin](https://www.tu.berlin/en/), including a year at [UC Berkeley](https://www.berkeley.edu/).
 
