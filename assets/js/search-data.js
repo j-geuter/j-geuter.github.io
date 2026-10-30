@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "Longer write-ups of my research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "A PDF version of the CV can be downloaded by clicking the icon on the right.",
@@ -23,13 +30,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-three-papers-accepted-to-icml-2025-universal-neural-optimal-transport-main-conference-entropy-driven-pre-tokenization-for-byte-pair-encoding-tokenization-workshop-and-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-spotlight-at-es-fomo-workshop",
+        },{id: "post-unlocking-lossless-speedups-in-llms-via-discrete-diffusion",
+        
+          title: "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+        
+        description: "We introduce Uno, a standard autoregressive model plus small diffusion weights that draft a block of tokens in one forward pass, while the unchanged AR weights check the draft. The output follows exactly the AR model&#39;s distribution.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/uno/";
+          
+        },
+      },{id: "post-boomerang-distillation-enables-zero-shot-model-size-interpolation",
+        
+          title: "Boomerang Distillation Enables Zero-Shot Model Size Interpolation",
+        
+        description: "We identify a novel phenomenon, Boomerang Distillation, and describe how it can be used to create entire families of LLMs of fine-grained sizes without any training from a single student-teacher pair.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/boomerang-distillation/";
+          
+        },
+      },{id: "news-three-papers-accepted-to-icml-2025-universal-neural-optimal-transport-main-conference-entropy-driven-pre-tokenization-for-byte-pair-encoding-tokenization-workshop-and-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-spotlight-at-es-fomo-workshop",
           title: 'Three papers accepted to ICML 2025! Universal Neural Optimal Transport (main conference), Entropy-Driven...',
           description: "",
           section: "News",},{id: "news-i-was-selected-to-receive-a-kempner-institute-graduate-fellowship",
           title: 'I was selected to receive a Kempner Institute Graduate Fellowship!',
           description: "",
-          section: "News",},{id: "news-new-preprint-out-boomerang-distillation-enables-zero-shot-model-size-interpolation-we-show-that-given-a-teacher-and-a-single-distilled-student-model-you-can-create-models-of-intermediate-sizes-without-any-additional-training",
+          section: "News",},{id: "news-new-preprint-out-boomerang-distillation-enables-zero-shot-model-size-interpolation-we-show-that-given-a-teacher-and-a-single-distilled-student-model-you-can-create-models-of-intermediate-sizes-without-any-additional-training-check-out-the-blog-post",
           title: 'New preprint out: Boomerang Distillation Enables Zero-Shot Model Size Interpolation. We show that...',
           description: "",
           section: "News",},{id: "news-two-papers-accepted-to-iclr-2026-guided-speculative-inference-for-efficient-test-time-alignment-of-llms-and-boomerang-distillation-enables-zero-shot-model-size-interpolation",
@@ -47,7 +76,7 @@ ninja.data = [{
           section: "News",},{id: "news-two-new-follow-up-works-to-boomerang-distillation-out-understanding-layer-patching-in-model-size-interpolation-accepted-to-the-adaptfm-workshop-at-icml-2026-and-thinking-at-the-right-size-amortized-distillation-across-post-trained-llms-accepted-to-emnlp-2026-these-papers-explore-extending-boomerang-distillation-to-post-trained-models-and-better-understanding-its-layer-patching-mechanism",
           title: 'Two new follow-up works to boomerang distillation out: Understanding Layer Patching in Model...',
           description: "",
-          section: "News",},{id: "news-i-helped-train-ifm-s-suite-of-fully-open-source-language-models-coming-in-sizes-from-0-9b-to-375b-we-also-developed-uno-a-lossless-discrete-diffusion-framework-which-accelerates-decoding-by-up-to-2-5x-compared-to-autoregressive-sampling-we-provide-uno-adapters-for-qwen3-8b-and-our-own-0-9b-and-7b-models-check-out-the-paper-unlocking-lossless-speedups-in-llms-via-discrete-diffusion",
+          section: "News",},{id: "news-i-helped-train-ifm-s-suite-of-fully-open-source-language-models-coming-in-sizes-from-0-9b-to-375b-we-also-developed-uno-a-lossless-discrete-diffusion-framework-which-accelerates-decoding-by-up-to-2-5x-compared-to-autoregressive-sampling-we-provide-uno-adapters-for-qwen3-8b-and-our-own-0-9b-and-7b-models-check-out-the-paper-unlocking-lossless-speedups-in-llms-via-discrete-diffusion-and-the-blog-post",
           title: 'I helped train IFM’s suite of fully open-source language models, coming in sizes...',
           description: "",
           section: "News",},{id: "news-our-paper-understanding-layer-patching-in-model-size-interpolation-was-accepted-to-neurips-2026",
