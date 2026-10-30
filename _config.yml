@@ -221,6 +221,10 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      type: posts
+    values:
+      permalink: /blog/:year/:title/
 
 sass:
   style: compressed

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{% assign word_count = content | strip_html | number_of_words %}
+{% assign read_time = word_count | divided_by: 200 | plus: 1 %}
+{% assign my_name = site.first_name | append: ' ' | append: site.last_name %}
+{% capture my_name_bold %}<strong>{{ my_name }}</strong>{% endcapture %}
+
+<div class="post blog-post">
+  <header class="blog-post-header">
+    <a class="blog-back" href="{{ '/blog/' | relative_url }}"><i class="fa-solid fa-arrow-left fa-sm"></i> all posts</a>
+    <h1 class="post-title" data-toc-skip>{{ page.title }}</h1>
+    <p class="blog-meta">
+      {{ page.date | date: '%B %-d, %Y' }} &middot; {{ read_time }} min read
+      {% if page.venue %}<span class="blog-venue">{{ page.venue }}</span>{% endif %}
+    </p>
+    <p class="blog-authors">{{ page.authors | replace: my_name, my_name_bold }}</p>
+    {% if page.authors_full %}
+      <details class="blog-authors-full">
+        <summary>All authors and affiliations</summary>
+        <p>{{ page.authors_full | replace: my_name, my_name_bold }}</p>
+        <p>{{ page.affiliations }}</p>
+      </details>
+    {% endif %}
+    {% if page.links %}
+      <div class="blog-links">
+        {% for link in page.links %}
+          <a class="blog-link" href="{{ link.url }}"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if page.source_name %}
+      <p class="blog-source">Originally published on the <a href="{{ page.source_url }}">{{ page.source_name }}</a>.</p>
+    {% endif %}
+  </header>
+
+  <article class="post-content blog-content">
+    <div id="markdown-content">
+      {{ content }}
+    </div>
+  </article>
+
+  {% if page.next or page.previous %}
+    <nav class="blog-post-nav" aria-label="More posts">
+      {% if page.next %}
+        <a class="blog-post-nav-link" href="{{ page.next.url | relative_url }}">
+          <span class="blog-meta">Newer post</span>
+          {{ page.next.title }}
+        </a>
+      {% endif %}
+      {% if page.previous %}
+        <a class="blog-post-nav-link" href="{{ page.previous.url | relative_url }}">
+          <span class="blog-meta">Older post</span>
+          {{ page.previous.title }}
+        </a>
+      {% endif %}
+    </nav>
+  {% endif %}
+</div>

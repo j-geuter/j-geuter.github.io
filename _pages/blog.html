@@ -1,0 +1,33 @@
+---
+layout: page
+permalink: /blog/
+title: blog
+nav: true
+nav_order: 3
+description: Longer write-ups of my research.
+---
+
+<div class="blog-list">
+  {% for post in site.posts %}
+    {% assign word_count = post.content | strip_html | number_of_words %}
+    {% assign read_time = word_count | divided_by: 200 | plus: 1 %}
+    <article class="blog-card">
+      {% if post.thumbnail %}
+        <div class="blog-card-thumb">
+          {% include figure.liquid path=post.thumbnail alt=post.title sizes="(min-width: 960px) 900px, 95vw" %}
+        </div>
+      {% endif %}
+      <div class="blog-card-body">
+        <p class="blog-meta">
+          {{ post.date | date: '%B %-d, %Y' }} &middot; {{ read_time }} min read
+          {% if post.venue %}<span class="blog-venue">{{ post.venue }}</span>{% endif %}
+        </p>
+        <h2 class="blog-card-title">
+          <a class="stretched-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <p class="blog-card-description">{{ post.description }}</p>
+        <p class="blog-authors">{{ post.authors }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>
