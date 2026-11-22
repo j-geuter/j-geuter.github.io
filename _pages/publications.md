@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: >-
-  Publications in reversed chronological order. For a complete list, see
+  Publications in reversed chronological order. * denotes equal contribution. For a complete list, see
   <a href='https://scholar.google.com/citations?user=5CTwTC0AAAAJ'>Google Scholar</a>.
 nav: true
 nav_order: 2
